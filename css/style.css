@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;800&display=swap');
+
+:root {
+    --bg: rgb(104, 133, 98);
+    --blue: #4cb5f5;
+    --gray: #b7b8b6;
+    --darkGreen: rgb(52, 103, 92);
+    --lightGreen: #b3c100;
+    --text: #333;
+    --white: #fff;
+    --fontSize: 16px;
+    --font: 'Raleway', sans-serif;
+    --transition: .3s ease;
+    --p: 50px;
+    --px: 300px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* main {
+    width: 1480px;
+    margin: auto;
+} */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    background-image: linear-gradient(rgba(78, 114, 90, 0.7),
+            rgba(18, 27, 21, 0.7)), url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--font);
+    line-height: 1.5rem;
+}
+
+button {
+    padding: 11px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 10px 0;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    background: var(--lightGreen);
+    margin: 20px 0;
+}
+
+button:hover {
+    background: var(--gray);
+    color: var(--white);
+}
+
+.topBar {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--p);
+
+}
+
+.logo {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.topBar p {
+    color: var(--lightGreen);
+    font-weight: 300;
+}
+
+.topBar ul {
+    color: var(--white);
+}
+
+.topBar ul a {
+    margin-left: 10px;
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.topBar ul a:hover {
+    color: var(--lightGreen);
+}
+
+/***o nama***/
+.onama {
+    display: flex;
+    color: var(--white);
+    padding: 0 var(--p);
+    margin: 0 150px;
+}
+
+.onama article:nth-child(1) {
+    flex: 0 0 40%;
+}
+
+.onama article:nth-child(2) {
+    flex: 0 0 60%;
+    background-image: url(../img/uvod.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.onama article div:nth-child(1) {
+    background-color: var(--darkGreen);
+    padding: var(--p);
+}
+
+.onama article div:nth-child(2) {
+    background-color: var(--blue);
+    padding: var(--p);
+}
+
+
+
+.onama article div h2 {
+    margin-bottom: 20px;
+    ;
+}

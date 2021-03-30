@@ -187,3 +187,17 @@ button:hover {
 .info .row:last-child div h4 {
     padding: 20px;
 }
+
+/***slider***/
+.slider {
+    background: var(--lightGreen);
+    padding: var(--p);
+    text-align: center;
+}
+
+.slider h2 {
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: 500;
+    padding-bottom: 20px;
+}

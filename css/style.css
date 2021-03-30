@@ -106,7 +106,6 @@ button:hover {
 .onama {
     display: flex;
     color: var(--white);
-    padding: 0 var(--p);
     margin: 0 150px;
 }
 
@@ -132,9 +131,59 @@ button:hover {
     padding: var(--p);
 }
 
-
-
 .onama article div h2 {
     margin-bottom: 20px;
-    ;
+}
+
+/***info***/
+.info {
+    background-color: var(--white);
+    text-align: center;
+    color: var(--text);
+}
+
+.info .row:first-child {
+    padding: var(--p)300px;
+}
+
+.info .row:first-child h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.info .row:first-child p {
+    padding: 30px;
+}
+
+.info .row:last-child div i {
+    font-size: 2rem;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid var(--gray);
+    padding: 20px;
+}
+
+.info .fa-camera-retro {
+    color: var(--lightGreen);
+}
+
+.info .fa-envelope {
+    color: var(--darkGreen);
+}
+
+.info .fa-phone {
+    color: var(--blue);
+}
+
+.info .row:last-child {
+    display: flex;
+}
+
+.info .row:last-child div {
+    flex: 1;
+    border-right: 2px solid var(--gray);
+}
+
+.info .row:last-child div h4 {
+    padding: 20px;
 }

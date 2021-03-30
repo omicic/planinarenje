@@ -30,10 +30,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    1rem;
-}
-
 .container {
     width: 80%;
     margin: auto;
@@ -104,7 +100,7 @@ button:hover {
 .onama {
     display: flex;
     color: var(--white);
-    margin: 0 150px;
+    margin: 0 auto;
 }
 
 .onama article:nth-child(1) {
